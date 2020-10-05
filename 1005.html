@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="kor">
+ <head>
+  <meta charset="UTF-8">
+
+  <title>Document</title>
+ </head>
+ <body>
+  <!--문자열입력 -->
+		이름: <input type="text" name="txtname" method="post" size="10" maxlength=10
+		placeholder="한글로 입력하시오"/><br>
+		학과: <input type="text" name="txtdepartment" method="post"/><br>
+		비밀번호: <input type="password" name="txtpassword" method="post"/><br>
+
+  <!--버튼입력 단일-->
+		<br>Q1. 먹고싶은것을 고르시오<br><br>
+		<input type="radio" name="rFood1" value="라면" method="post"/>라면
+		<input type="radio" name="rFood1" value="과자" method="post"/>과자
+		<input type="radio" name="rFood1" value="햄버거" method="post"/>햄버거
+		<input type="radio" name="rFood1" value="피자" method="post"/>피자
+		<input type="radio" name="rFood1" value="치킨" method="post"/>치킨
+  <!--버튼입력 다중-->
+		<br><br>Q. 좋아하는 동물은<br><br>
+		<input type="checkbox" name="cpet1" value="강아지"/>강아지
+		<input type="checkbox" name="cpet1" value="고양이"/>고양이
+		<input type="checkbox" name="cpet1" value="햄스터"/>햄스터
+		<input type="checkbox" name="cpet1" value="호랑이"/>호랑이
+  <!--단락형태의 문자열-->
+
+		<br><br><textarea name="tacontext" rows=10 cols=10></textarea>
+		
+  <!--드랍박스-->
+		<br><br>
+		<select>
+			<optgroup label="과일">
+			<option>사과</option>
+			<option>곶감</option>
+			<option selected>배</option>
+			<option>대추</option>
+			<option>바나나</option>
+			</optgroup>
+			<optgroup label="학과">
+				<option>컴공</option>
+				<option>전공</option>
+				<option>사공</option>
+				<option>기공</option>
+				<option>체공</option>
+			</optgroup>
+		</select>
+ </body>
+</html>
