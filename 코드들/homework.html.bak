@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="kor">
+ <head>
+  
+  <title>과제1번</title>
+
+ </head>
+ <body>
+	<h1>회원 가입 양식</h1>
+
+	<table border="0">
+		<tr>
+			<td style="text-align:center;width:200px;background-color:black;"><font color=white>이름</td>
+			<td colspan="3"><input type="text" style="width:250px;"></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;background-color:black;"><font color=white>아이디</td>
+			<td colspan="3"><input type="text" placeholder="영문 및 숫자" style="width:250px;"></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;background-color:black;"><font color=white>비밀번호</td>
+			<td colspan="3"><input type="password" placeholder="영문, 숫자, 특수문자의 조합" style="width:250px;"></td>
+			<td colspan="2" style="text-align:center;width:250px;background-color:black;"><font color=white>비밀번호 확인</td>
+			<td colspan="3" style="width:250px;"><input type="password" placeholder="같은 비밀번호를 입력해주세요" style="width:250px;"></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;background-color:black;"><font color=white>성별</td>
+			<td><input type="radio" name="gender" method="post">남자</input></td>
+			<td><input type="radio" name="gender" method="post">여자</input></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;background-color:black;"><font color=white>전화번호</td>
+			<td colspan="4" style="width:400px;">
+				<select>
+					<option>02</option>
+					<option>041</option>
+					<option>011</option>
+					<option>017</option>
+					<option selected>010</option>
+				</select>	
+				- <input type="text"/>
+				- <input type="text"/>
+			</td>
+			
+		</tr>
+		<datalist id="address">
+				<option value="naver">naver.com</option>
+				<option value="daum">daum.net</option>
+				<option value="google">google.com</option>
+			</datalist>
+		<tr>
+			<td style="text-align:center;background-color:black;"><font color=white>이메일</td>
+			<td colspan="3"><input type="text"> @ <input list="address" type="text"></td>
+			
+		</tr>
+
+		<tr>
+			<td style="text-align:center;background-color:black;"><font color=white>학과</td>
+			<td colspan="3"><input type="text" style="width:250px;"></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;background-color:black;"><font color=white>학년</td>
+			<td><input type="radio" name="grade" value="1학년" method="post"/>1학년</input></td>
+			<td><input type="radio" name="grade" value="2학년" method="post"/>2학년</input></td>
+			<td><input type="radio" name="grade" value="3학년" method="post"/>3학년</input></td>
+			<td><input type="radio" name="grade" value="4학년" method="post"/>4학년</input></td>
+			<td><input type="radio" name="grade" value="5학년" method="post"/>5학년</input></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;background-color:black;"><font color=white>관심분야</td>
+			<td><input type="checkbox" name="cpet1" value="동물"/>동물</td>
+			<td><input type="checkbox" name="cpet1" value="영화"/>영화</td>
+			<td><input type="checkbox" name="cpet1" value="애니메이션"/>애니메이션</td>
+			<td><input type="checkbox" name="cpet1" value="축구"/>축구</td>
+			<td><input type="checkbox" name="cpet1" value="음악"/>음악</td>
+			<td><input type="checkbox" name="cpet1" value="정치"/>정치</td>
+			<td><input type="checkbox" name="cpet1" value="패션"/>패션</td>
+			<td><input type="checkbox" name="cpet1" value="기타"/>기타</td>
+		</tr>
+		<tr>
+			<td rowspan="10" style="text-align:center;background-color:black;"><font color=white>자기소개</td>
+			<td colspan="8">
+				<!--<input type="content"/>-->
+				<textarea style="width:100%" rows="15"></textarea>
+			</td>
+
+		</tr>
+	</table>
+	<input type="reset"/>
+	<input type="submit"/>
+	
+ </body>
+</html>

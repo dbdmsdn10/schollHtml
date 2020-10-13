@@ -27,19 +27,19 @@
 		<input type="checkbox" name="cpet1" value="호랑이"/>호랑이
   <!--단락형태의 문자열-->
 
-		<br><br><textarea name="tacontext" rows=10 cols=10></textarea>
+		<br><br><textarea name="tacontext" rows=20 cols=50></textarea>
 		
   <!--드랍박스-->
 		<br><br>
 		<select>
-			<optgroup>
+			<optgroup label="과일">
 			<option>사과</option>
 			<option>곶감</option>
 			<option selected>배</option>
 			<option>대추</option>
 			<option>바나나</option>
 			</optgroup>
-			<optgroup>
+			<optgroup label="학과">
 				<option>컴공</option>
 				<option>전공</option>
 				<option>사공</option>
@@ -47,5 +47,27 @@
 				<option>체공</option>
 			</optgroup>
 		</select>
+
+	<!---->
+		<br><br>
+		<input type="reset" value="취소" name="btncancle"/><br>
+		<input type="submit" value="확인" name="btnok"/><br>
+		<input type="button" value="버튼" name="btnbutton"/><br>
+
+		<button type="button">버튼 확장자</button><br>
+		<button type="reset">버튼 확장자</button><br>
+		<button type="submit">버튼 확장자</button><br><br><br>
+
+		<!--리스트 상자만들기  text로 입력받아 리스트와 연결함, 검색기능처럼 보임-->
+			<datalist id="fruits">
+				<option value="apple">apple</option>
+				<option value="banana">banana</option>
+				<option value="pineapple">pineapple</option>
+				<option value="orange">orange</option>
+				<option value="">사과</option>
+				<option value="">오렌지</option>
+			</datalist>
+		<input type="text" list="fruits" name="txtlist"/>
+			
  </body>
 </html>
