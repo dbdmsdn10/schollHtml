@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="kor">
+ <head>
+  <meta charset="UTF-8">
+  <title>중간고사 2016244027 유은우</title>
+ </head>
+ <body>
+  2번<H1> 2020년 2학기 중간고사</H1>
+  <H2>컴퓨터 공학부 2016244027 유은우</H2><br>
+  3번<br> &lt과목&gt <ins> 웹 프로젝트</ins><br><br>
+  4번<br> <a href="http://lms.sunmoon.ac.kr/">e-강의동</a><br><br>
+
+	5번 <ol type="a">
+		<li>알파</li>
+		<li>베타</li>
+		<li>감마</li>
+		<li>세타</li>
+		<li>오메가</li>
+	</ol>
+	6번
+	<table border="1" cellspacing="0">
+		<tr>
+			<td rowspan="3">A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td colspan="2">D</td>
+		</tr>
+		<tr>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<br><br>
+	7번<br> <img src="myImage.jpg" width="300" height="200"/><br><br>
+
+	8번<br>
+	<input type="text" maxlength=6/>
+	<br><br>
+
+	9번<br>
+		Q. 당신의 관심사항은?<br>
+		<input type="radio" name="interest"/>건강<br>
+		<input type="radio" name="interest"/>경제<br>
+		<input type="radio" name="interest"/>교육<br>
+		<input type="radio" name="interest"/>스포츠<br>
+		<input type="radio" name="interest"/>레저<br><br>
+	10번<br>
+	<input type="submit" value="답안제출"/><br><br>
+
+	11번<br>
+	<select>
+			<optgroup label="HTML5">
+			<option selected>Multimedia Tag</option>
+			<option>Connectivity</option>
+			<option>Device Access</option>
+			</optgroup>
+			<optgroup label="CSS3">
+				<option>Animation</option>
+				<option>3D Transform</option>
+			</optgroup>
+		</select><br><br>
+	
+	12번<br>
+	<datalist id="language">
+				<option value="한국어" label="Korean"></option>
+				<option value="영어" label="English"></option>
+				<option value="중국어" label="Chinese"></option>
+				<option value="일본어" label="Japanese"></option>
+				<option value="프랑스어" label="French"></option>
+			</datalist>
+		<input type="text" list="language" name="txtlist"/>
+
+ </body>
+</html>
