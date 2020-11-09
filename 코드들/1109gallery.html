@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="kor">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    .head{
+        background-color: #dddddd;
+        width: 800px;
+        height: 40px;
+    }
+    .left{
+        width: 150px;
+        height: 600px;
+        background-color: #343333;
+        color: #e2e2e2;
+        float: left;
+        }
+    .left h3{
+        font-weight: normal;
+        padding: 20px 0 0 30px;
+    }
+    .left ul{
+        font-size: 14px;
+        padding: 10px 10px 5px 25px;
+    }
+    .left li{padding: 3px;}
+    li{
+        list-style: none;
+    }
+    .right{
+        width: 650px;
+        height: 600px;
+        background-color: #252525;
+        float: left;
+        }
+    .top{
+        width: 572px;
+        padding:10px;
+        margin: 24px 0 0 24px;
+        size: 18px;
+        color: #ffffff;
+        font-weight: bold;
+        border: solid 5px #444444;
+    }
+    .middle{padding: 15px 0 0 24px;}
+    .bottom{padding: 15px 0 0 24px;}
+    .bottom li{
+        display: inline;
+        margin: 3px 0 0 0;
+    }
+    .headleft{
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+        color: #3e2b23;
+        padding: 10px 0 0 30px;
+        text-shadow: 3px 3px 5px #444444;}
+    .headright{
+        float: right;
+        padding: 10px 10px 0 0;
+    }
+    .left_arrow{
+        margin: 20px 5px 0 20px;
+        }
+    .right_arrow{
+        margin: 20px 0 0 20px;
+        }
+</style>
+ </head>
+ <body>
+     <!--헤드-->
+     <div class="head">
+         <div class="headleft">poto gallery</div>
+         <div class="headright">로그인|회원가입|방명록</div>
+     </div>
+     <!--왼쪽-->
+     <div class="left">
+         <h3>포토갤러리</h3>
+         <ul>
+             <li>풍경</li>
+             <li>일상</li>
+             <li>인물</li>
+             <li>가족</li>
+         </ul>
+
+     </div>
+     <!--오른쪽-->
+     <div class="right">
+         <!--상-->
+         <div class="top">풍경사진</div>
+        <!--중-->
+          <div class="middle">
+              <img src="..\img\b-1.jpg"/>
+          </div>
+        <!--하-->
+         <div class="bottom">
+             <ul>
+                 <li><img class="left_arrow" src="..\img\bt_move_left.gif"/></li>
+                 <li><img src="..\img\s-1.jpg"/></li>
+                 <li><img src="..\img\s-2.jpg"/></li>
+                 <li><img src="..\img\s-3.jpg"/></li>
+                 <li><img src="..\img\s-4.jpg"/></li>
+                 <li><img src="..\img\s-5.jpg"/></li>
+                 <li><img class="right_arrow" src="..\img\bt_move_right.gif"/></li>
+             </ul>
+         </div>
+         
+     </div>
+ </body>
+</html>

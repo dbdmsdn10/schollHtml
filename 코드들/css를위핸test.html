@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="kor">
+ <head>
+  <meta charset="UTF-8">
+  <title>testforcss</title>
+  <!--스타일->영역분리 -->
+  <style type=text/css>
+		font, a {font-weight:bold;}
+
+		.fontstyle{font-size:100px;}
+		/* .~는 클래스 속성이다 */
+
+		#myStyle{color:yellow;}
+		p{color:blue;}
+
+		.mybtn{
+			color:red;
+			width:200px;
+			height:100px;
+			font-size:80px;
+			font-weight:bolder;
+			font-style:italic;
+			border:blue 2px solid;
+			border-radius:100px;
+		}
+		input[type="text"]{
+			background-color:red;
+		}
+		input[type="password"]{
+			background-color:blue;
+		}
+		/* 타입 지정으로 나눌수도 있음 */
+
+		h1:hover{color:red;}
+		/* hover-> 마우스가 올라가면 바뀜*/
+		h1:active{color:blue;}
+		/* active->클릭시 변경 */
+
+/* css로만들면 어떤 테그를 사용하건 적용이된다 */
+  </style>
+ </head>
+ <body>
+	<!-- <font color="red" face="궁서체" size="7">css의 기본사용법</font> -->
+	<!--color=색깔 face=글꼴 size=크기-->
+
+	<font style="color:red; font-family:궁서체; font-size:40px;">css의 기본사용법</font>
+	<!--이는 css를 쓰는방식을 사용했다--><br>
+
+	<font>두번째는 적용없음</font><br>
+	<font id=myStyle>세번째는 적용없음</font>
+
+	<p>p테그이다</p>
+	<a>a</a>
+	<p class="fontstyle">pppp</p>
+
+	<!--버튼-->
+
+	<input class="mybtn" type="submit" name="btn" value="ok"/>
+
+	<!--type에 따른 다른적용-->
+	<input type="text"/>
+	<input type="password"/>
+
+	<h1>선택자</h1>
+ </body>
+</html>
