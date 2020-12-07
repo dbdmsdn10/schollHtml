@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title>
+        
+    </head>
+    <script>
+        window.onload=function(){
+        // var first=document.getElementById("first");
+        // // var second=document.querySelector("h1");// 동일한게 2개라면 첫번째로 오는것을 수정한다
+        // var second=document.getElementById("second");
+        // first.style.color="red"//글자색
+        // first.style.background="black";//배경색
+        // first.innerHTML='from javascript';//글자 바꾸기
+
+        // second.style.color='yellow';
+        // second.style.background='black';
+
+        // var okok=document.querySelectorAll('h1');//전부 가져옴
+        // var i=0;
+        // // for(item in okok){
+        // //     item.innerHTML="H1 OBJECT"+(i+1);
+        // // }
+        // for(var i;i<okok.length;i++){
+        //     okok[i].innerHTML="H1 OBJECT"+(i+1);
+        // }
+        
+        
+
+        // document.body.textContent='확인';
+        // document.body.textContent='<h1>확인2</h1>';
+        // document.body.innerHTML='<h1>확인2</h1>';
+
+        // var outs='';
+        // for(var i=0;i<256;i++){
+        //     outs+='<div></div>';
+        // }
+        // document.body.innerHTML=outs;
+        // var divs=document.querySelectorAll('div');
+
+        // for(var i=0;i<divs.length;i++){
+        //     divs[i].style.height='2px';
+        //     divs[i].style.background='rgb('+i+','+i+','+i+')';
+        // }
+        // var target=document.querySelector('font');
+        // alert(target.getAttribute('color'));
+
+        // var target=document.querySelector('img');
+        // target.setAttribute("src","poto/40k-header.jpg");
+
+        // alert(document.body.getAttribute("myattribute"));
+
+        setInterval(function(){
+            var clock=document.getElementById('clock');
+        var now=new Date();
+        clock.innerHTML=now;
+        },1000);
+        
+    }
+    </script>
+    <!-- <body myattribute="mine">
+         <h1 id="first">
+            첫번째
+        </h1>
+        <h1 id="second">
+            두번째
+        </h1> 
+        <font color="red" face="돋움" size="7">test</font>
+        <img />
+    </body> -->
+    <body>
+        <h1 id="clock">
+
+        </h1>
+    </body>
+</html>

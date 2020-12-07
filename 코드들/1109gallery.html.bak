@@ -29,12 +29,8 @@
         list-style: none;
     }
 	.left a{
-		color: white;
-        text-decoration: none;
+		
 	}
-    .left a:hover{
-        color:yellow;
-    }
     .right{
         width: 650px;
         height: 600px;
@@ -56,11 +52,6 @@
         display: inline;
         margin: 3px 0 0 0;
     }
-    .bottom a:hover img{
-        border:solid 5px #ffffff;
-    }
-    .bottom img{border:solid 5px #3d3d3d;}
-   
     .headleft{
         float: left;
         font-size: 16px;
@@ -108,13 +99,13 @@
         <!--하-->
          <div class="bottom">
              <ul>
-                 <li><a href="#"><img class="left_arrow" src="..\img\bt_move_left.gif"/></a></li>
-                 <li><a href="#"><img src="..\img\s-1.jpg"/></a></li>
-                 <li><a href="#"><img src="..\img\s-2.jpg"/></a></li>
-                 <li><a href="#"><img src="..\img\s-3.jpg"/></a></li>
-                 <li><a href="#"><img src="..\img\s-4.jpg"/></a></li>
-                 <li><a href="#"><img src="..\img\s-5.jpg"/></a></li>
-                 <li><a href="#"><img class="right_arrow" src="..\img\bt_move_right.gif"/></a></li>
+                 <li><img class="left_arrow" src="..\img\bt_move_left.gif"/></li>
+                 <li><img src="..\img\s-1.jpg"/></li>
+                 <li><img src="..\img\s-2.jpg"/></li>
+                 <li><img src="..\img\s-3.jpg"/></li>
+                 <li><img src="..\img\s-4.jpg"/></li>
+                 <li><img src="..\img\s-5.jpg"/></li>
+                 <li><img class="right_arrow" src="..\img\bt_move_right.gif"/></li>
              </ul>
          </div>
          

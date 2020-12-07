@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title>
+        <script type="text/javascript">
+            // var date=new Date();
+
+            // var year=date.getFullYear();
+            // var month=date.getMonth()+1;
+            // var day=date.getDate();
+            // var hour=date.getHours();
+            // var min=date.getMinutes();
+            // var second=date.getSeconds();
+
+            // var array=[273,'문자열',true,function(){},{},[32,100]]
+            // // alert(year+"."+month+"."+day+"  "+hour+":"+min+":"+second);
+            // alert(array);
+
+            var person={
+                name:"홍길동",
+                age:21,
+                print:function(){
+                    return this.name+"씨는"+this.age+"살 입니다";
+                }
+            }
+            //alert(person.print());// = person['print']
+            alert(person['print']);//이경우에는 함수 실행이아닌 문자로 인식하여 출력한다
+        </script>
+</head>
+<body>
+    
+</body>
+</html>
